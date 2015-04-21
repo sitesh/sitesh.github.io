@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Server
-source:           docs/_includes
+source:           docs
 destination:      _gh_pages
 host:             0.0.0.0
 port:             9001
