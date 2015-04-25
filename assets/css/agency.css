@@ -340,6 +340,16 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section h3.section-subheading-yellow {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #fed136;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -727,6 +737,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #fed136;
 }
 
 footer ul.quicklinks {
