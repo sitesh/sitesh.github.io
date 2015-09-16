@@ -266,6 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
+    opacity: 1;
     background-image: url(../img/sitesh2.jpg);
     background-position: center center;
     background-repeat: none;
