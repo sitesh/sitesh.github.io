@@ -56,6 +56,16 @@ h6 {
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "debby";
+    src: url('../fonts/Debby.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "luna";
+    src: url('../fonts/Luna.ttf') format('truetype');
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -175,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "luna",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #ffffff;
 
 }
@@ -207,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "luna",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -292,7 +302,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "debby",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -315,8 +325,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 25px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: "debby",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 125px;
         font-weight: 700;
         line-height: 75px;
     }
