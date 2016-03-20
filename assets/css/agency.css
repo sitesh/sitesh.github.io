@@ -277,7 +277,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     opacity: 1;
-    background-image: url(../img/sitesh2.jpg);
+    background-image: url(../img/test.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -290,7 +290,6 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-     z-index: 100;
 }
 
 header .intro-text .intro-lead-in {
@@ -308,14 +307,12 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    z-index: 100; 
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-         z-index: 100;
     }
 
     header .intro-text .intro-lead-in {
@@ -333,7 +330,6 @@ header .intro-text .intro-heading {
         font-size: 125px;
         font-weight: 700;
         line-height: 75px;
-        z-index: 100;
     }
 }
 
@@ -344,6 +340,13 @@ header .intro-text .intro-heading {
     width:100%;
     height:100%; 
     z-index:1;
+
+}
+
+.bgimg1 {
+    background-image: url('../img/.jpg');
+    background-size: cover;
+    
 
 }
 
@@ -378,7 +381,7 @@ section h3.section-subheading-yellow {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 0px 0;
     }
 }
 
