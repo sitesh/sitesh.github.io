@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light"."Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -64,6 +64,16 @@ h6 {
 @font-face {
     font-family: "luna";
     src: url('../fonts/Luna.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "hanken";
+    src: url('../fonts/Hanken-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "bolten";
+    src: url('../fonts/Bolten Regular.otf') format('truetype');
 }
 
 .img-centered {
@@ -363,7 +373,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -372,7 +382,7 @@ section h3.section-subheading {
 section h3.section-subheading-yellow {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
