@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light"."Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -54,6 +54,26 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "debby";
+    src: url('../fonts/Debby.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "luna";
+    src: url('../fonts/Luna.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "hanken";
+    src: url('../fonts/Hanken-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "bolten";
+    src: url('../fonts/Bolten Regular.otf') format('truetype');
 }
 
 .img-centered {
@@ -175,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "luna",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #ffffff;
 
 }
@@ -207,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "luna",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -267,13 +287,14 @@ header {
     color: #fff;
     background-attachment: scroll;
     opacity: 1;
-    background-image: url(../img/sitesh2.jpg);
+    background-image: url(../img/test.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 header .intro-text {
@@ -282,7 +303,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 25px
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -292,7 +313,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "debby",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -315,11 +336,28 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 25px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: "debby",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 125px;
         font-weight: 700;
         line-height: 75px;
     }
+}
+
+.overlay {  
+    background:rgba(0, 0, 0, .75);
+    text-align:center;
+    opacity:0.5;    
+    width:100%;
+    height:100%; 
+    z-index:1;
+
+}
+
+.bgimg1 {
+    background-image: url('../img/.jpg');
+    background-size: cover;
+    
+
 }
 
 section {
@@ -335,7 +373,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -344,7 +382,7 @@ section h3.section-subheading {
 section h3.section-subheading-yellow {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Hanken-Light","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -353,7 +391,7 @@ section h3.section-subheading-yellow {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 0px 0;
     }
 }
 
@@ -731,6 +769,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-image: url(../img/map-image.png);
 }
 
 footer span.copyright {
@@ -779,6 +818,80 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
 }
 
 .portfolio-modal .modal-content {
